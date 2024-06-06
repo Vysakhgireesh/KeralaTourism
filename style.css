@@ -1,0 +1,91 @@
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+/* Header */
+
+header{
+    padding: 35px 75px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+header .logo img{
+    width: 100px;
+}
+
+ header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 8px;
+    margin: 0 20px;
+}
+.navbar li:last-child a{
+    padding: 0;
+}
+.navbar li:hover a{
+    color: rgb(194, 31, 10);
+    transition: 0.8s;
+}
+/* hero image section */
+.hero{
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+}
+.hero .hero-info h1 {
+    color: white;
+    font-size: 75px;
+    font-weight: 900;
+    
+}
+.hero .hero-info{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    max-width: 450px;
+   
+}
+.hero .hero-info .learn-btn{
+    background: green;
+    color: white;
+    font-size:20px;
+    font-weight: 700;
+    padding: 6px 11px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 20px;
+
+}
