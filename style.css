@@ -1,91 +1,238 @@
-
 /* reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
+
 /* Header */
 
-header{
+header {
     padding: 35px 75px;
     position: fixed;
     z-index: 2;
     width: 100%;
 }
 
-header .logo img{
+header .logo img {
     width: 100px;
 }
 
- header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+}
 
-.navbar ul{
+.navbar ul {
     display: flex;
 }
-.navbar a{
-    
+
+.navbar a {
+
     color: white;
     font-size: 22px;
     font-weight: 400;
     padding: 10px 8px;
     margin: 0 20px;
 }
-.navbar li:last-child a{
+
+.navbar li:last-child a {
     padding: 0;
 }
-.navbar li:hover a{
-    color: rgb(194, 31, 10);
+
+.navbar li:hover a {
+    color: rgb(11, 214, 59);
     transition: 0.8s;
 }
+
 /* hero image section */
-.hero{
+.hero {
     position: relative;
 }
 
-.hero img{
+.hero img {
     width: 100%;
 }
+
 .hero .hero-info h1 {
     color: white;
     font-size: 75px;
     font-weight: 900;
-    
+
 }
-.hero .hero-info{
+
+.hero .hero-info {
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
     max-width: 450px;
-   
+
 }
-.hero .hero-info .learn-btn{
+
+.hero .hero-info .learn-btn {
     background: green;
     color: white;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 700;
     padding: 6px 11px;
     margin: 10px;
     display: inline-block;
     border-radius: 20px;
+    transition: background-color ease 0.5s;
 
+}
+
+.hero .hero-info .learn-btn:hover {
+    background-color: rgb(203, 96, 14);
+}
+
+/* Top destinations */
+
+
+div.heading h1 {
+    text-align: center;
+    padding: 50px;
+
+}
+
+.heading span {
+    border-bottom: 5px solid green;
+    font-size: 40px;
+}
+
+/* section2 */
+
+.section2 {
+    display: flex;
+
+}
+
+.container {
+    width: 700px;
+    margin: 40px 0px 0px 40px;
+}
+
+
+.image-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.ul {
+    text-decoration: underline 5px solid green;
+
+}
+
+section div h1 {
+    margin-bottom: 10px;
+}
+
+/* section3 */
+.section3 a {
+    background: green;
+    border-radius: 5px;
+   margin-left: 46%;
+  
+    font-size: 25px;
+    color: white;
+   
+    
+}
+
+/* about kerala */
+h1.about-line {
+    text-decoration: underline 5px solid green;
+    padding: 80px 0 15px 40px;
+    font-size: 35px;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+
+.map-image img {
+    width: 100%;
+    height: 800px;
+    outline: 4px solid green;
+
+
+}
+
+.text {
+    width: 50%;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* our districts section */
+.section5 h1 {
+    padding-top: 10rem;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+.section6 {
+    display: flex;
+
+    padding: 80px 30px 0px 30px;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+.section6 .dis-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid green;
+    overflow: hidden;
+
+
+}
+
+.dis-image img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+div h4 {
+    padding: 25px;
 }
