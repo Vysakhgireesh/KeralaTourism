@@ -29,16 +29,17 @@ header {
 
 header .logo img {
     width: 100px;
+   margin: 15px;
 }
 
 header nav {
 
-    background-color: transparent;
-    backdrop-filter: blur(10px);
+    background-color:#4CAF50; 
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+  
 
 }
 
@@ -48,7 +49,7 @@ header nav {
 
 .navbar a {
 
-    color: white;
+    color: #fff;
     font-size: 22px;
     font-weight: 400;
     padding: 10px 8px;
@@ -60,7 +61,7 @@ header nav {
 }
 
 .navbar li:hover a {
-    color: #4CAF50;
+    color: green;
     transition: 0.8s;
 }
 
@@ -104,7 +105,7 @@ header nav {
 }
 
 .hero .hero-info .learn-btn:hover {
-    background-color: rgb(203, 96, 14);
+    background-color: green;
 }
 
 /* Top destinations */
@@ -163,14 +164,17 @@ section div h1 {
 
     font-size: 25px;
     color: white;
-
-
+    
+}
+.section3 .see-bt:hover a{
+    background-color: green;
+    transition: background-color ease 0.5s;
 }
 
 /* about kerala */
 h1.about-line {
     text-decoration: underline 5px solid #4CAF50;
-    padding: 80px 0 15px 40px;
+    padding: 110px 0 15px 40px;
     font-size: 35px;
 
 }
@@ -245,7 +249,6 @@ div h4 {
 /* form section */
 .sec-form {
 
-    position: absolute;
     margin-top: 5rem;
     width: 400px;
     border-radius: 5px;
@@ -254,7 +257,7 @@ div h4 {
     align-items: center;
     left: 50%;
     transform: translateX(-50%);
-
+    position: relative;
 }
 
 .sec-form h3 {
@@ -289,8 +292,22 @@ div h4 {
 }
 
 .input-submit:hover {
-    background-color: rgb(203, 96, 14);
-
+    background-color:green;
 }
 
 /* footer section */
+footer{
+    
+    background: rgb(1, 10, 1);
+    color: white;
+    position:absolute ;
+    height: 80px;
+    margin-top: 5rem;
+    align-items: flex-end;
+    width: 100%;
+    text-align: center;
+  
+}
+footer p{
+    padding-top: 40px;
+}

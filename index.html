@@ -21,13 +21,13 @@
     <header>
         <nav>
             <div class="logo">
-                <a href="#index.html">
+                <a href="#">
                     <img src="./images/pngwing.com.png" alt="Logo of KeralaTourism">
                 </a>
             </div>
             <div class="navbar">
                 <ul>
-                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#districts">Districts</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#">Login</a></li>
@@ -42,11 +42,11 @@
     <!-- hero starts -->
     <main>
         <div class="hero">
-            <img src="./images/sunset aleppy.jpg" alt="hero image">
+            <img src="./images/banner image.jpg" alt="hero image">
             <div class="hero-info">
                 <h1>COME AND ENJOY OUR CULTURE</h1>
                 <a class="learn-btn" href="#">LEARN MORE</a>
-                <a class="learn-btn" href="#">CONTACT US</a>
+                <a class="learn-btn" href="#contact" >CONTACT US</a>
             </div>
         </div>
         <!-- hero end -->
@@ -95,14 +95,14 @@
         </section>
         <section class="section3">
             <div class="see-bt"><a href="#">SEE MORE</a></div>
-        </section>
-        <section class="section4" id="about">
-            <div>
+        </section >
+        <section class="section4" id="">
+            <div id="about">
                 <h1 class="about-line">ABOUT KERALA</h1>
             </div>
         </section>
         <!-- about kerala -->
-        <section class="about-container">
+        <section  class="about-container">
 
             <div class="about-kerala">
                 <div class="map-image">
@@ -212,21 +212,22 @@
         <section class="section3">
             <div class="see-bt"><a href="#">SEE MORE</a></div>
         </section>
+
         <!-- form section -->
-        <div class="sec-form">
+
+        <div class="sec-form" id="contact" >
             <h3>ENQUIRY FOR BOOKING</h3>
             <form action="" autocomplete="off">
                 <label for="name">First Name</label>
                 <input class="input-form" type="text" id="name" name="name" placeholder="Enter Name" required
-                    maxlength="20">
+                  minlength="3"  maxlength="20">
 
 
                 <label for="lname">Email</label>
                 <input class="input-form" type="email" id="email" name="email" placeholder="Enter email id" required>
 
                 <label for="fname">Pnone Number</label>
-                <input class="input-form" type="tel" id="number" name="number" placeholder="Enter Phone number" required
-                    maxlength="10">
+                <input class="input-form" type="tel" id="number" name="number"  placeholder="Enter Phone number" required  minlength="10" maxlength="10">
 
 
                 <label for="Districts">Districts</label>
@@ -253,6 +254,16 @@
             </form>
 
         </div>
+
+        <!-- footer section -->
+
+            <footer>
+                <p>Copyright © 2024 Vysakh.in All Rights Reserved.</p>
+            </footer>
+
+
+
+
 
 
 
