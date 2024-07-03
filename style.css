@@ -139,11 +139,7 @@ div.heading h1 {
 
 }
 
-.container {
-    width: 100%;
 
-
-}
 
 
 .image-container {
@@ -195,8 +191,8 @@ h1.about-line {
 .about-kerala {
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 15px;
-    
+    padding: 15px;
+
     gap: 3rem;
 
 
@@ -207,7 +203,7 @@ h1.about-line {
     width: 250px;
     height: 400px;
     outline: 4px solid #4CAF50;
-    margin-left: 10px;
+    margin: 20px 0px 0px 30px;
 
 }
 
@@ -428,7 +424,7 @@ footer p {
     .about-kerala {
         display: grid;
         grid-template-columns: auto;
-        margin-left: 15px;
+        padding: 15px;
 
 
 
@@ -481,6 +477,59 @@ footer p {
         font-size: 10px;
         font-weight: 20px;
     }
+
+    .section5 h1 {
+        padding-top: 2rem;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    div.heading h1 {
+        text-align: center;
+        padding: 30px;
+
+    }
+
+    .heading span {
+        border-bottom: 5px solid #4CAF50;
+        font-size: 30px;
+    }
+
+    h1.about-line {
+        text-decoration: underline 5px solid #4CAF50;
+        padding: 110px 0 15px 40px;
+        font-size: 30px;
+
+    }
+
+    .seebtn-dist a {
+        position: absolute;
+        background: #4CAF50;
+        border-radius: 6px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .section3 a {
+        position: absolute;
+        background: #4CAF50;
+        border-radius: 6px;
+        left: 50%;
+        transform: translate(-50%, 55px);
+        font-size: 12px;
+        color: white;
+
+  }
+  .ul {
+    text-decoration: underline 5px solid #4CAF50;
+    font-size: 20px;
+}
+
+
+
 
 
 }
