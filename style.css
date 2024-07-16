@@ -233,6 +233,9 @@ h1.about-line {
 
 
 }
+.section6 a{
+    color: black;
+}
 
 .section6 .dis-image {
     width: 300px;
@@ -358,27 +361,27 @@ footer p {
         position: fixed;
         top: 75px;
         left: -100%;
-
+        background-color: #4CAF50;
+        height: 15rem;
         width: 100%;
         display: block;
         text-align: end;
-
-
-    }
+   }
+ 
 
     .menu {
         display: block;
     }
 
     .navbar ul li {
-        margin: 35px 0px;
-
+        margin: 20px 0px;
+        
 
     }
 
     .navbar a {
-        color: black;
-        font-size: 15px;
+        color: white;
+        font-size: 20px;
         font-weight: 25px;
     }
 
